@@ -13,11 +13,11 @@ Magic number，即幻数，它可以用来标记文件或者协议的格式，�
 <table>
   <thead>
     <tr>
-      <th width="50px">Hex signature</th>
-      <th width="50px">ISO 8859-1</th>
-      <th width="50px">Offset</th>
-      <th width="50px">Filename extension</th>
-      <th width="50px">Description</th></tr>
+      <th>Hex signature</th>
+      <th>ISO 8859-1</th>
+      <th>Offset</th>
+      <th>Filename extension</th>
+      <th>Description</th></tr>
   </thead>
   <tbody>
     <tr>
@@ -56,7 +56,7 @@ Magic number，即幻数，它可以用来标记文件或者协议的格式，�
       <td>RedHat Package Manager (RPM) package</td></tr>
     <tr>
       <td>
-        <pre>53 51 4c 69 74 65 20 66 6f 72 6d 61 74 20 33 00</pre></td>
+        <pre>53 51 4c 69 74 65 <br>20 66 6f 72 6d 61 <br>74 20 33 00</pre></td>
       <td>
         <pre>SQLite format 3.</pre></td>
       <td>0</td>
@@ -90,7 +90,7 @@ Magic number，即幻数，它可以用来标记文件或者协议的格式，�
     </tr>
     <tr>
       <td>
-        <pre>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</pre></td>
+        <pre>00 00 00 00 00 00 <br>00 00 00 00 00 00 <br>00 00 00 00 00 00 <br>00 00 00 00 00 00</pre></td>
       <td>
         <pre>........ ........ ........</pre></td>
       <td>11</td>
@@ -189,7 +189,7 @@ Magic number，即幻数，它可以用来标记文件或者协议的格式，�
     </tr>
     <tr>
       <td>
-        <pre>42 41 43 4B 4D 49 4B 45 44 49 53 4B</pre></td>
+        <pre>42 41 43 4B 4D 49 <br>4B 45 44 49 53 4B</pre></td>
       <td>
         <pre>BACKMIKE DISK</pre></td>
       <td>0</td>
@@ -230,7 +230,7 @@ Magic number，即幻数，它可以用来标记文件或者协议的格式，�
       <td>Tagged Image File Format</td></tr>
     <tr>
       <td>
-        <pre>49 49 2A 00 10 00 00 00 43 52</pre></td>
+        <pre>49 49 2A 00 10 00 <br>00 00 43 52</pre></td>
       <td>
         <pre>II*..... CR</pre></td>
       <td>0</td>
@@ -284,9 +284,9 @@ Magic number，即幻数，它可以用来标记文件或者协议的格式，�
     <tr>
       <td>
         <pre>FF D8 FF DB</pre>
-        <pre>FF D8 FF E0 00 10 4A 46 49 46 00 01</pre>
+        <pre>FF D8 FF E0 00 10 <br>4A 46 49 46 00 01</pre>
         <pre>FF D8 FF EE</pre>
-        <pre>FF D8 FF E1&nbsp;??&nbsp;?? 45 78 69 66 00 00</pre></td>
+        <pre>FF D8 FF <br>E1&nbsp;??&nbsp;?? <br>45 78 69 66 00 00</pre></td>
       <td>
         <pre>ÿØÿÛ</pre>
         <pre>ÿØÿà..JFIF..</pre>
@@ -298,7 +298,7 @@ Magic number，即幻数，它可以用来标记文件或者协议的格式，�
       <td>JPEG raw or in the JFIF or Exif file format</td></tr>
     <tr>
       <td>
-        <pre>46 4F 52 4D&nbsp;??&nbsp;??&nbsp;??&nbsp;?? 49 4C 42 4D</pre></td>
+        <pre>46 4F 52 <br>4D&nbsp;??&nbsp;??&nbsp;??&nbsp;?? <br>49 4C 42 4D</pre></td>
       <td>
         <pre>FORM.... ILBM</pre></td>
       <td>0
@@ -311,7 +311,7 @@ Magic number，即幻数，它可以用来标记文件或者协议的格式，�
       <td>IFF Interleaved Bitmap Image</td></tr>
     <tr>
       <td>
-        <pre>46 4F 52 4D&nbsp;??&nbsp;??&nbsp;??&nbsp;?? 38 53 56 58</pre></td>
+        <pre>46 4F 52 <br>4D&nbsp;??&nbsp;??&nbsp;??&nbsp;?? <br>38 53 56 58</pre></td>
       <td>
         <pre>FORM.... 8SVX</pre></td>
       <td>0
@@ -325,7 +325,7 @@ Magic number，即幻数，它可以用来标记文件或者协议的格式，�
       <td>IFF 8-Bit Sampled Voice</td></tr>
     <tr>
       <td>
-        <pre>46 4F 52 4D&nbsp;??&nbsp;??&nbsp;??&nbsp;?? 41 43 42 4D</pre></td>
+        <pre>46 4F 52 <br>4D&nbsp;??&nbsp;??&nbsp;??&nbsp;?? <br>41 43 42 4D</pre></td>
       <td>
         <pre>FORM.... ACBM</pre></td>
       <td>0
@@ -336,7 +336,7 @@ Magic number，即幻数，它可以用来标记文件或者协议的格式，�
       <td>Amiga Contiguous Bitmap</td></tr>
     <tr>
       <td>
-        <pre>46 4F 52 4D&nbsp;??&nbsp;??&nbsp;??&nbsp;?? 41 4E 42 4D</pre></td>
+        <pre>46 4F 52 <br>4D&nbsp;??&nbsp;??&nbsp;??&nbsp;?? <br>41 4E 42 4D</pre></td>
       <td>
         <pre>FORM.... ANBM</pre></td>
       <td>0
@@ -347,7 +347,7 @@ Magic number，即幻数，它可以用来标记文件或者协议的格式，�
       <td>IFF Animated Bitmap</td></tr>
     <tr>
       <td>
-        <pre>46 4F 52 4D&nbsp;??&nbsp;??&nbsp;??&nbsp;?? 41 4E 49 4D</pre></td>
+        <pre>46 4F 52 <br>4D&nbsp;??&nbsp;??&nbsp;??&nbsp;?? <br>41 4E 49 4D</pre></td>
       <td>
         <pre>FORM.... ANIM</pre></td>
       <td>0
@@ -358,7 +358,7 @@ Magic number，即幻数，它可以用来标记文件或者协议的格式，�
       <td>IFF CEL Animation</td></tr>
     <tr>
       <td>
-        <pre>46 4F 52 4D&nbsp;??&nbsp;??&nbsp;??&nbsp;?? 46 41 58 58</pre></td>
+        <pre>46 4F 52 <br>4D&nbsp;??&nbsp;??&nbsp;??&nbsp;?? <br>46 41 58 58</pre></td>
       <td>
         <pre>FORM.... FAXX</pre></td>
       <td>0
@@ -370,7 +370,7 @@ Magic number，即幻数，它可以用来标记文件或者协议的格式，�
       <td>IFF Facsimile Image</td></tr>
     <tr>
       <td>
-        <pre>46 4F 52 4D&nbsp;??&nbsp;??&nbsp;??&nbsp;?? 46 54 58 54</pre></td>
+        <pre>46 4F 52 <br>4D&nbsp;??&nbsp;??&nbsp;??&nbsp;?? <br>46 54 58 54</pre></td>
       <td>
         <pre>FORM.... FTXT</pre></td>
       <td>0
@@ -381,7 +381,7 @@ Magic number，即幻数，它可以用来标记文件或者协议的格式，�
       <td>IFF Formatted Text</td></tr>
     <tr>
       <td>
-        <pre>46 4F 52 4D&nbsp;??&nbsp;??&nbsp;??&nbsp;?? 53 4D 55 53</pre></td>
+        <pre>46 4F 52 <br>4D&nbsp;??&nbsp;??&nbsp;??&nbsp;?? <br>53 4D 55 53</pre></td>
       <td>
         <pre>FORM.... SMUS</pre></td>
       <td>0
@@ -394,7 +394,7 @@ Magic number，即幻数，它可以用来标记文件或者协议的格式，�
       <td>IFF Simple Musical Score</td></tr>
     <tr>
       <td>
-        <pre>46 4F 52 4D&nbsp;??&nbsp;??&nbsp;??&nbsp;?? 43 4D 55 53</pre></td>
+        <pre>46 4F 52 <br>4D&nbsp;??&nbsp;??&nbsp;??&nbsp;?? <br>43 4D 55 53</pre></td>
       <td>
         <pre>FORM.... CMUS</pre></td>
       <td>0
@@ -406,7 +406,7 @@ Magic number，即幻数，它可以用来标记文件或者协议的格式，�
       <td>IFF Musical Score</td></tr>
     <tr>
       <td>
-        <pre>46 4F 52 4D&nbsp;??&nbsp;??&nbsp;??&nbsp;?? 59 55 56 4E</pre></td>
+        <pre>46 4F 52 <br>4D&nbsp;??&nbsp;??&nbsp;??&nbsp;?? <br>59 55 56 4E</pre></td>
       <td>
         <pre>FORM.... YUVN</pre></td>
       <td>0
@@ -418,7 +418,7 @@ Magic number，即幻数，它可以用来标记文件或者协议的格式，�
       <td>IFF YUV Image</td></tr>
     <tr>
       <td>
-        <pre>46 4F 52 4D&nbsp;??&nbsp;??&nbsp;??&nbsp;?? 46 41 4E 54</pre></td>
+        <pre>46 4F 52 <br>4D&nbsp;??&nbsp;??&nbsp;??&nbsp;?? <br>46 41 4E 54</pre></td>
       <td>
         <pre>FORM.... FANT</pre></td>
       <td>0
@@ -428,7 +428,7 @@ Magic number，即幻数，它可以用来标记文件或者协议的格式，�
       <td>Amiga Fantavision Movie</td></tr>
     <tr>
       <td>
-        <pre>46 4F 52 4D&nbsp;??&nbsp;??&nbsp;??&nbsp;?? 41 49 46 46</pre></td>
+        <pre>46 4F 52 <br>4D&nbsp;??&nbsp;??&nbsp;??&nbsp;?? <br>41 49 46 46</pre></td>
       <td>
         <pre>FORM.... AIFF</pre></td>
       <td>0
@@ -497,7 +497,7 @@ Magic number，即幻数，它可以用来标记文件或者协议的格式，�
       <td>zip file format and formats based on it, such as EPUB, JAR, ODF, OOXML</td></tr>
     <tr>
       <td>
-        <pre>52 61 72 21 1A 07 00</pre></td>
+        <pre>52 61 72 21 1A 07 <br>00</pre></td>
       <td>
         <pre>Rar!...</pre>
         <br></td>
@@ -506,7 +506,7 @@ Magic number，即幻数，它可以用来标记文件或者协议的格式，�
       <td>RAR archive version 1.50 onwards</td></tr>
     <tr>
       <td>
-        <pre>52 61 72 21 1A 07 01 00</pre></td>
+        <pre>52 61 72 21 1A 07 <br>01 00</pre></td>
       <td>
         <pre>Rar!....</pre></td>
       <td>0</td>
@@ -522,7 +522,7 @@ Magic number，即幻数，它可以用来标记文件或者协议的格式，�
       <td>Executable and Linkable Format</td></tr>
     <tr>
       <td>
-        <pre>89 50 4E 47 0D 0A 1A 0A</pre></td>
+        <pre>89 50 4E 47 0D 0A <br>1A 0A</pre></td>
       <td>
         <pre>.PNG....</pre></td>
       <td>0</td>
@@ -622,7 +622,7 @@ Magic number，即幻数，它可以用来标记文件或者协议的格式，�
       <td>PDF document</td></tr>
     <tr>
       <td>
-        <pre>30 26 B2 75 8E 66 CF 11 A6 D9 00 AA 00 62 CE 6C</pre></td>
+        <pre>30 26 B2 75 8E 66 <br>CF 11 A6 D9 00 AA <br>00 62 CE 6C</pre></td>
       <td>
         <pre>0&amp;²u.fÏ .¦Ù.ª.bÎl</pre></td>
       <td>0</td>
@@ -632,7 +632,7 @@ Magic number，即幻数，它可以用来标记文件或者协议的格式，�
       <td>Advanced Systems Format</td></tr>
     <tr>
       <td>
-        <pre>24 53 44 49 30 30 30 31</pre></td>
+        <pre>24 53 44 49 30 30 <br>30 31</pre></td>
       <td>
         <pre>$SDI0001</pre></td>
       <td>0</td>
@@ -658,7 +658,7 @@ Magic number，即幻数，它可以用来标记文件或者协议的格式，�
       <td>Photoshop Document file, Adobe Photoshop's native file format</td></tr>
     <tr>
       <td>
-        <pre>52 49 46 46&nbsp;??&nbsp;??&nbsp;??&nbsp;?? 57 41 56 45</pre></td>
+        <pre>52 49 46 <br>46&nbsp;??&nbsp;??&nbsp;??&nbsp;?? <br>57 41 56 45</pre></td>
       <td>
         <pre>RIFF.... WAVE</pre></td>
       <td>0</td>
@@ -666,7 +666,7 @@ Magic number，即幻数，它可以用来标记文件或者协议的格式，�
       <td>Waveform Audio File Format</td></tr>
     <tr>
       <td>
-        <pre>52 49 46 46&nbsp;??&nbsp;??&nbsp;??&nbsp;?? 41 56 49 20</pre></td>
+        <pre>52 49 46 <br>46&nbsp;??&nbsp;??&nbsp;??&nbsp;?? <br>41 56 49 20</pre></td>
       <td>
         <pre>RIFF.... AVI.</pre></td>
       <td>0</td>
@@ -710,8 +710,8 @@ Magic number，即幻数，它可以用来标记文件或者协议的格式，�
       <td>ISO9660 CD/DVD image file</td></tr>
     <tr>
       <td>
-        <pre>53 49 4D 50 4C 45 20 20</pre>
-        <pre>3D 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 54</pre></td>
+        <pre>53 49 4D 50 4C 45 <br>20 20</pre>
+        <pre>3D 20 20 20 20 20 <br>20 20 20 20 20 20 <br>20 20 20 20 20 20 <br>20 20 20 54</pre></td>
       <td>
         <pre>SIMPLE = T</pre></td>
       <td>0</td>
@@ -736,7 +736,7 @@ Magic number，即幻数，它可以用来标记文件或者协议的格式，�
       <td>MIDI sound file</td></tr>
     <tr>
       <td>
-        <pre>D0 CF 11 E0 A1 B1 1A E1</pre></td>
+        <pre>D0 CF 11 E0 A1 B1 <br>1A E1</pre></td>
       <td></td>
       <td>0</td>
       <td>doc
@@ -746,7 +746,7 @@ Magic number，即幻数，它可以用来标记文件或者协议的格式，�
       <td>Compound File Binary Format, a container format used for document by older versions of Microsoft Office. It is however an open format used by other programs as well.</td></tr>
     <tr>
       <td>
-        <pre>64 65 78 0A 30 33 35 00</pre></td>
+        <pre>64 65 78 0A 30 33 <br>35 00</pre></td>
       <td>
         <pre>dex.035.</pre></td>
       <td>0</td>
@@ -778,7 +778,7 @@ Magic number，即幻数，它可以用来标记文件或者协议的格式，�
       <td>FreeHand 8 document</td></tr>
     <tr>
       <td>
-        <pre>05 07 00 00 42 4F 42 4F 05 07 00 00 00 00 00 00 00 00 00 00 00 01</pre></td>
+        <pre>05 07 00 00 42 4F <br>42 4F 05 07 00 00 <br>00 00 00 00 00 00 <br>00 00 00 01</pre></td>
       <td>
         <pre>....BOBO ........ ....</pre></td>
       <td>0</td>
@@ -786,7 +786,7 @@ Magic number，即幻数，它可以用来标记文件或者协议的格式，�
       <td>AppleWorks 5 document</td></tr>
     <tr>
       <td>
-        <pre>06 07 E1 00 42 4F 42 4F 06 07 E1 00 00 00 00 00 00 00 00 00 00 01</pre></td>
+        <pre>06 07 E1 00 42 4F <br>42 4F 06 07 E1 00 <br>00 00 00 00 00 00 <br>00 00 00 01</pre></td>
       <td>
         <pre>....BOBO ........ ....</pre></td>
       <td>0</td>
@@ -795,7 +795,7 @@ Magic number，即幻数，它可以用来标记文件或者协议的格式，�
     <tr>
       <td>
         <pre>45 52 02 00 00 00</pre>
-        <pre>8B 45 52 02 00 00 00</pre></td>
+        <pre>8B 45 52 02 00 00 <br>00</pre></td>
       <td>
         <pre>ER....</pre>
         <pre>ãER....</pre></td>
@@ -804,7 +804,7 @@ Magic number，即幻数，它可以用来标记文件或者协议的格式，�
       <td>Roxio Toast disc image file, also some .dmg-files begin with same bytes</td></tr>
     <tr>
       <td>
-        <pre>78 01 73 0D 62 62 60</pre></td>
+        <pre>78 01 73 0D 62 62 <br>60</pre></td>
       <td>
         <pre>x.s.bb`</pre></td>
       <td>0</td>
@@ -820,7 +820,7 @@ Magic number，即幻数，它可以用来标记文件或者协议的格式，�
       <td>eXtensible ARchive format</td></tr>
     <tr>
       <td>
-        <pre>50 4D 4F 43 43 4D 4F 43</pre></td>
+        <pre>50 4D 4F 43 43 4D <br>4F 43</pre></td>
       <td>
         <pre>PMOCCMOC</pre></td>
       <td>0</td>
@@ -839,8 +839,8 @@ Magic number，即幻数，它可以用来标记文件或者协议的格式，�
       <td>Nintendo Entertainment System ROM file</td></tr>
     <tr>
       <td>
-        <pre>75 73 74 61 72 00 30 30</pre>
-        <pre>75 73 74 61 72 20 20 00</pre></td>
+        <pre>75 73 74 61 72 00 <br>30 30</pre>
+        <pre>75 73 74 61 72 20 <br>20 00</pre></td>
       <td>
         <pre>ustar.00</pre>
         <pre>ustar .</pre></td>
@@ -865,7 +865,7 @@ Magic number，即幻数，它可以用来标记文件或者协议的格式，�
       <td>Magic Lantern Video file</td></tr>
     <tr>
       <td>
-        <pre>44 43 4D 01 50 41 33 30</pre></td>
+        <pre>44 43 4D 01 50 41 <br>33 30</pre></td>
       <td>
         <pre>DCM PA30</pre></td>
       <td>0</td>
@@ -890,7 +890,7 @@ Magic number，即幻数，它可以用来标记文件或者协议的格式，�
       <td>GZIP compressed file</td></tr>
     <tr>
       <td>
-        <pre>FD 37 7A 58 5A 00 00</pre></td>
+        <pre>FD 37 7A 58 5A 00 <br>00</pre></td>
       <td>
         <pre>²7zXZ..</pre></td>
       <td>0</td>
@@ -920,7 +920,7 @@ Magic number，即幻数，它可以用来标记文件或者协议的格式，�
       <td>Microsoft Cabinet file</td></tr>
     <tr>
       <td>
-        <pre>53 5A 44 44 88 F0 27 33</pre></td>
+        <pre>53 5A 44 44 88 F0 <br>27 33</pre></td>
       <td>
         <pre>SZDD....</pre></td>
       <td>0</td>
@@ -956,7 +956,7 @@ Magic number，即幻数，它可以用来标记文件或者协议的格式，�
       <td>"SEAN&nbsp;: Session Analysis" Training file. Also used in compatible software "Rpw&nbsp;: Rowperfect for Windows" and "RP3W&nbsp;: ROWPERFECT3 for Windows".</td></tr>
     <tr>
       <td>
-        <pre>41 54 26 54 46 4F 52 4D&nbsp;??&nbsp;??&nbsp;??&nbsp;?? 44 4A 56</pre></td>
+        <pre>41 54 26 54 46 4F <br>52 <br>4D&nbsp;??&nbsp;??&nbsp;??&nbsp;?? <br>44 4A 56</pre></td>
       <td>
         <pre>AT&amp;TFORM....DJV</pre></td>
       <td>0</td>
@@ -1035,14 +1035,14 @@ Magic number，即幻数，它可以用来标记文件或者协议的格式，�
       <td>flash .swf</td></tr>
     <tr>
       <td>
-        <pre>21 3C 61 72 63 68 3E</pre></td>
+        <pre>21 3C 61 72 63 68 <br>3E</pre></td>
       <td>!&lt;arch&gt;.</td>
       <td>0</td>
       <td>deb</td>
       <td>linux deb file</td></tr>
     <tr>
       <td>
-        <pre>52 49 46 46&nbsp;??&nbsp;??&nbsp;??&nbsp;?? 57 45 42 50</pre></td>
+        <pre>52 49 46 <br>46&nbsp;??&nbsp;??&nbsp;??&nbsp;?? <br>57 45 42 50</pre></td>
       <td>RIFF....
         <p>WEBP</p>
       </td>
@@ -1239,7 +1239,7 @@ Magic number，即幻数，它可以用来标记文件或者协议的格式，�
       <td>Lua bytecode</td></tr>
     <tr>
       <td>
-        <pre>62 6F 6F 6B 00 00 00 00 6D 61 72 6B 00 00 00 00</pre></td>
+        <pre>62 6F 6F 6B 00 00 <br>00 00 6D 61 72 6B <br>00 00 00 00</pre></td>
       <td>
         <pre>book....mark....</pre></td>
       <td>0</td>
@@ -1247,7 +1247,7 @@ Magic number，即幻数，它可以用来标记文件或者协议的格式，�
       <td>macOS file Alias (Symbolic link)</td></tr>
     <tr>
       <td>
-        <pre>5B 5A 6F 6E 65 54 72 61 6E 73 66 65 72 5D</pre></td>
+        <pre>5B 5A 6F 6E 65 54 <br>72 61 6E 73 66 65 <br>72 5D</pre></td>
       <td>
         <pre>[ZoneTransfer]</pre></td>
       <td>0</td>
@@ -1255,7 +1255,7 @@ Magic number，即幻数，它可以用来标记文件或者协议的格式，�
       <td>Microsoft Zone Identifier for URL Security Zones</td></tr>
     <tr>
       <td>
-        <pre>52 65 63 65 69 76 65 64</pre></td>
+        <pre>52 65 63 65 69 76 <br>65 64</pre></td>
       <td>
         <pre>Received:</pre></td>
       <td>0</td>
@@ -1263,7 +1263,7 @@ Magic number，即幻数，它可以用来标记文件或者协议的格式，�
       <td>Email Message var5</td></tr>
     <tr>
       <td>
-        <pre>20 02 01 62 A0 1E AB 07 02 00 00 00</pre></td>
+        <pre>20 02 01 62 A0 1E <br>AB 07 02 00 00 00</pre></td>
       <td>
         <pre>..b&nbsp;.«.....</pre></td>
       <td>0</td>
@@ -1271,7 +1271,7 @@ Magic number，即幻数，它可以用来标记文件或者协议的格式，�
       <td>Tableau Datasource</td></tr>
     <tr>
       <td>
-        <pre>37 48 03 02 00 00 00 00 58 35 30 39 4B 45 59</pre></td>
+        <pre>37 48 03 02 00 00 <br>00 00 58 35 30 39 <br>4B 45 59</pre></td>
       <td>
         <pre>7H......X509KEY</pre></td>
       <td>0</td>
