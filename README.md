@@ -9,3 +9,5 @@
 - [MacOS和Linux内核区别](page/MacOS_Linux_Kernel.md)
 
 - [TLRD Page 和 Man Page的关系](page/TLDR_VS_MAN_Page.md)
+
+- [文件幻数总结](page/Magic_Num_List.md)
