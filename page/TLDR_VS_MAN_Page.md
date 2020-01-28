@@ -35,17 +35,17 @@ TLDR Page 让你只是浏览一下命令，看看它是如何工作的。
 
 - 安装
 
-支持多平台，参考 [tlrd客户端](https://github.com/tldr-pages/tldr#clients)
+支持多平台，参考 [TLDR客户端](https://github.com/tldr-pages/tldr#clients)
 
 ### 示例比较（tar命令为例）
 
 - Man Page 较复杂，不易读，tar命令有上千行
 
-![Man](image/TLDR_VS_MAN_Page_1.jpg)
+![Man](../image/TLDR_VS_MAN_Page_1.jpg)
 
 - TLDR Page 较简洁，以示例为主导，帮助用户快速了解如何使用命令
 
-![TLDR](image/TLDR_VS_MAN_Page_2.jpg)
+![TLDR](../image/TLDR_VS_MAN_Page_2.jpg)
 
 ## 总结
 
