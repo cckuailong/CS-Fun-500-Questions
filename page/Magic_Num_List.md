@@ -13,11 +13,11 @@ Magic number，即幻数，它可以用来标记文件或者协议的格式，�
 <table>
   <thead>
     <tr>
-      <th>Hex signature</th>
-      <th>ISO 8859-1</th>
-      <th>Offset</th>
-      <th>Filename extension</th>
-      <th>Description</th></tr>
+      <th width="50px">Hex signature</th>
+      <th width="50px">ISO 8859-1</th>
+      <th width="50px">Offset</th>
+      <th width="50px">Filename extension</th>
+      <th width="50px">Description</th></tr>
   </thead>
   <tbody>
     <tr>
