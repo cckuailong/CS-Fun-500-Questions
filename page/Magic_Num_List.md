@@ -92,7 +92,7 @@ Magic number，即幻数，它可以用来标记文件或者协议的格式，�
       <td>
         <pre>00 00 00 00 00 00 <br>00 00 00 00 00 00 <br>00 00 00 00 00 00 <br>00 00 00 00 00 00</pre></td>
       <td>
-        <pre>........ ........ ........</pre></td>
+        <pre>........ ........ <br>........</pre></td>
       <td>11</td>
       <td>PDB</td>
       <td>PalmPilot Database/Document File</td></tr>
@@ -780,7 +780,7 @@ Magic number，即幻数，它可以用来标记文件或者协议的格式，�
       <td>
         <pre>05 07 00 00 42 4F <br>42 4F 05 07 00 00 <br>00 00 00 00 00 00 <br>00 00 00 01</pre></td>
       <td>
-        <pre>....BOBO ........ ....</pre></td>
+        <pre>....BOBO ........ <br>....</pre></td>
       <td>0</td>
       <td>cwk</td>
       <td>AppleWorks 5 document</td></tr>
@@ -788,7 +788,7 @@ Magic number，即幻数，它可以用来标记文件或者协议的格式，�
       <td>
         <pre>06 07 E1 00 42 4F <br>42 4F 06 07 E1 00 <br>00 00 00 00 00 00 <br>00 00 00 01</pre></td>
       <td>
-        <pre>....BOBO ........ ....</pre></td>
+        <pre>....BOBO ........ <br>....</pre></td>
       <td>0</td>
       <td>cwk</td>
       <td>AppleWorks 6 document</td></tr>
