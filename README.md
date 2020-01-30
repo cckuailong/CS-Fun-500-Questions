@@ -15,3 +15,5 @@
 - [Hello "#!"](page/Hello_Shebang.md)
 
 - [Url中的 "#", "?", "&" 三兄弟](page/Url_Sharp_Question_And_Mark.md)
+
+- [为什么Windows用ipconfig，Linux用ifconfig呢](page/Ifconfig_VS_Ipconfig.md)
