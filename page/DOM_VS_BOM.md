@@ -64,7 +64,16 @@ DOM 为访问，操作这些 node 提供了可能。
 注意：一个浏览器窗口中可能有多个document。
 例如，网页中嵌套了很多iframe元素，那么每个 iframe 中的 HTML 都是一个document。
 
+#### 例子
+
+```
+document.getElementById("test")     // 根据id获取Node
+document.title                      // 获取HTML的标题
+```
+
 ### BOM
+
+#### 什么是 BOM
 
 BOM 全称是 Browser Object Model，也就是浏览器对象模型。
 
@@ -79,6 +88,16 @@ location.href = "http://www.xxxx.com" // location 就是 BOM 里的一个对象�
 
 BOM 的 window 包含了 document，因此可以直接访问 window 对象的 document，
 进而通过 document 就可以访问、检索、修改 HTML 文档的内容与结构（因为 document 又可以操作 DOM）。
+
+#### 例子
+
+```
+window.document             // 获取DOM
+window.screen               // 获取浏览器屏幕信息
+window.location             // 获取/控制用户页面URL
+window.navigator            // 获取访问者浏览器信息
+window.open("http://test.com")  // 打开一个新窗口
+```
 
 ## 总结
 
