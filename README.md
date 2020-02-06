@@ -19,3 +19,7 @@
 - [为什么Windows用ipconfig，Linux用ifconfig呢](page/Ifconfig_VS_Ipconfig.md)
 
 - [DOM 和 BOM区别](page/DOM_VS_BOM.md)
+
+- [PHP中 die()和exit()的区别](page/PHP_Die_VS_Exit)
+
+- [Mysql中ord()和ascii()函数的区别](page/Mysql_Ord_VS_Ascii.md)
