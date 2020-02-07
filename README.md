@@ -23,3 +23,9 @@
 - [PHP中 die()和exit()的区别](page/PHP_Die_VS_Exit)
 
 - [Mysql中ord()和ascii()函数的区别](page/Mysql_Ord_VS_Ascii.md)
+
+- [RFID 和 NFC的区别](page/RFID_VS_NFC.md)
+
+- [WIFI, Zigbee 和 BlueTooth的区别](page/WIFI_VS_Zigbee_VS_BlueTooth.md)
+
+- [XML 和 XSL区别](page/XML_VS_XSL.md)
