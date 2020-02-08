@@ -29,3 +29,5 @@
 - [WIFI, Zigbee 和 BlueTooth的区别](page/WIFI_VS_Zigbee_VS_BlueTooth.md)
 
 - [XML 和 XSL区别](page/XML_VS_XSL.md)
+
+- [为什么Ubuntu里面的/etc/hosts 第二行127.0.1.1 <host_name>](page/Why_127_0_1_1.md)
