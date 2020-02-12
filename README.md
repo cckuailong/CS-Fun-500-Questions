@@ -31,3 +31,7 @@
 - [XML 和 XSL区别](page/XML_VS_XSL.md)
 
 - [为什么Ubuntu里面的/etc/hosts 第二行127.0.1.1 <host_name>](page/Why_127_0_1_1.md)
+
+- [FAT32 和 NTFS 分区格式的区别](page/FAT32_VS_NTFS.md)
+
+- [Linux 中 apt 和 apt-get的区别](page/Apt_VS_Apt-get.md)
