@@ -37,3 +37,5 @@
 - [Linux 中 apt 和 apt-get的区别](page/Apt_VS_Apt-get.md)
 
 - [PHP中 单引号和双引号的区别](page/PHP_Quotes_Diff.md)
+
+- [PowerShell中Echo，Write-Output和Write-Host区别](page/PowerShell_Echo_VS_Write-Output_VS_Host.md)
