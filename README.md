@@ -39,3 +39,5 @@
 - [PHP中 单引号和双引号的区别](page/PHP_Quotes_Diff.md)
 
 - [PowerShell中Echo，Write-Output和Write-Host区别](page/PowerShell_Echo_VS_Write-Output_VS_Host.md)
+
+- [Ftp, NFS和Samba的故事](page/FTP_NFS_AND_SAMBA.md)
