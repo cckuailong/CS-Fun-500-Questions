@@ -41,3 +41,9 @@
 - [PowerShell中Echo，Write-Output和Write-Host区别](page/PowerShell_Echo_VS_Write-Output_VS_Host.md)
 
 - [Ftp, NFS和Samba的故事](page/FTP_NFS_AND_SAMBA.md)
+
+- [PHP 中神奇的 $ 和 $$](page/PHP_Var_VS_VariableVar.md)
+
+- [PHP 代码标记风格](page/PHP_Code_Sign.md)
+
+- [UTF8 与 UTF8-BOM 的差异](page/UTF-8_VS_UTF-8-BOM.md)
