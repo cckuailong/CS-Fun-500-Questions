@@ -49,3 +49,13 @@
 - [UTF8 与 UTF8-BOM 的差异](page/UTF-8_VS_UTF-8-BOM.md)
 
 - [Windows的135、137、138、139、445端口的作用](page/Win_135_137_138_139_445_Port.md)
+
+- [X-Forwarded-For 和它的兄弟们](page/X-Forwarded-For_VS_Its_Brothers.md)
+
+- [Http header 中的 X-Powered-By 和 Server](page/X-Powered-By_VS_Server.md)
+
+- [浏览器 插件和扩展 的区别](page/Browser_Plugin_VS_Extension.md)
+
+- [Mysql sql_mode中的 STRICT_TRANS_TABLES 和 STRICT_ALL_TABLES 区别](page/Mysql_STRICT_ALL_VS_TRANS_TABLES.md)
+
+- [Linux /dev/shm的作用](page/Linux_dev_shm.md)
