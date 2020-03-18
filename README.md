@@ -59,3 +59,7 @@
 - [Mysql sql_mode中的 STRICT_TRANS_TABLES 和 STRICT_ALL_TABLES 区别](page/Mysql_STRICT_ALL_VS_TRANS_TABLES.md)
 
 - [Linux /dev/shm的作用](page/Linux_dev_shm.md)
+
+- [JavaScript 的历史](page/JS_History.md)
+
+- [CMM(C--)和JavaScript的关系](page/Cmm_AND_JS.md)
